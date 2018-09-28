@@ -1,0 +1,61 @@
+.DocumentList {
+
+	table {
+		tr {
+			&:nth-child(2n) {
+				background-color: #fff;
+			}
+
+			th {
+				text-transform: uppercase;
+				opacity: .3;
+				font-weight: 400;
+			}
+
+			td, th {
+				vertical-align: middle;
+				padding: 10px 8px;
+				border: none;
+
+				&:nth-child(1) {
+					width: 5rem;
+				}
+				&:nth-child(3) {
+					text-align: center;
+				}
+				&:nth-child(4) {
+					text-align: center;
+				}
+				&:nth-child(5) {
+					padding-right: 0.4rem;
+					width: 3rem;
+				}
+				&:nth-child(6) {
+					width: 3rem;
+				}
+			}
+		}
+
+		.details {
+
+			.name {
+
+			}
+
+			.description {
+				margin-top: 0.2rem;
+				opacity: .4;
+				font-size: 0.9rem;
+
+				i {
+					margin-right: 0.3rem;
+				}
+			}
+		}
+
+		.default-logo {
+			padding-left: 0.2rem;
+		}
+	}
+
+}

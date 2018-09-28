@@ -1,0 +1,102 @@
+export default {
+	App: {
+		turnDevice: 'Please turn your device to landscape',
+		deleteModal: {
+			message: "Do you want to delete {itemName}?",
+			delete: 'Delete',
+			cancel: 'Cancel',
+		},
+        blockModal: {
+            message: "Do you want to block {itemName}?",
+            unBlockMessage: "Do you want to unblock {itemName}?",
+            block: 'Block',
+            unBlock: 'Unblock',
+            cancel: 'Cancel',
+        },
+	},
+	Exceptions: {
+		required: 'is required.',
+		invalid: 'is invalid.',
+		too_short: 'too short.',
+		too_long: 'is too long.',
+		not_numeric: 'has to be numeric.',
+		duplicated: 'already exists.',
+		invalid_credentials: 'Email or password incorrect.'
+	},
+	Languages: {
+		en: 'English',
+		du: 'Dutch',
+	},
+	SearchBar: {
+		shopsPlaceholder: 'Search Shop',
+	},
+	ShopDetailsForm: {
+		save: 'Save',
+		cancel: 'Cancel',
+		identification: 'Identification',
+		addLogo: 'Add Logo',
+		shopName: 'Shop Name',
+		shortDescription: 'Short Description',
+		fullDescription: 'Full Description',
+		tags: 'Tags',
+		locationContact: 'Location and Contact',
+		lat: 'Lat',
+		long: 'Long',
+		radius: 'Radius(m)',
+		address: 'Address',
+		floor: 'Floor',
+		city: 'City',
+		phone: 'Phone',
+		fax: 'Fax',
+		email: 'Email',
+		webSocial: 'Web and Social Media',
+		website: 'Website',
+		facebookPage: 'Facebook Page',
+		instagram: 'Instagram',
+		twitter: 'Twitter',
+		googlePlus: 'Google+',
+		linkedIn: 'LinkedIn',
+		pinterest: 'Pinterest',
+		schedule: 'Opening Hours',
+		mon: 'Mon',
+		tue: 'Tue',
+		wed: 'Wed',
+		thu: 'Thu',
+		fri: 'Fri',
+		sat: 'Sat',
+		sun: 'Sun',
+		supracategories: 'Supracategories',
+		categories: 'Categories',
+		interests: 'Interests',
+		audience: 'Audience',
+	},
+	ShopList: {
+		deleteModal: {
+			message: 'Do you want to delete {shopName}?',
+			delete: 'Delete',
+			cancel: 'Cancel',
+		}
+	},
+	ShopListSorter: {
+		name: 'Shops',
+		floors: 'Level',
+	},
+	ShopListPage: {
+		addShop: 'Add Shop',
+		title: 'Shops',
+	},
+	ShopNavbar: {
+		details: 'Details',
+		gallery: 'Media Gallery',
+		promotions: 'Promotions',
+		ratings: 'Ratings and Reviews',
+		inactiveModal: {
+			message: 'Add shop details first.',
+			ok: 'Ok',
+		},
+	},
+	Sidebar: {
+		logout: 'Logout',
+		shops: 'Shops',
+	}
+}

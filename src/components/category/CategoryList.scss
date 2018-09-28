@@ -1,0 +1,57 @@
+.CategoryList {
+
+	table {
+		tr {
+			&:nth-child(2n) {
+				background-color: #fff;
+			}
+
+			td {
+				padding: 10px 8px;
+				border: none;
+				display: inline-block;
+
+				&:nth-child(1) {
+					font-size:2.5rem;
+					width: auto;
+
+					span {
+						vertical-align: top;
+					}
+				}
+				&:nth-child(3) {
+					padding-top: 1.3rem;
+					padding-right: 0.4rem;
+					width: 3rem;
+					float: right;
+					margin-right: 1rem;
+				}
+				&:nth-child(4) {
+					padding-top: 1.3rem;
+					width: 3rem;
+					float: right;
+				}
+			}
+		}
+		.curs-pointer {
+			cursor: pointer;
+		}
+
+		.details {
+			padding-top: 0.4rem;
+
+			.name {
+
+			}
+
+			.description {
+				opacity: 0.3;
+
+				i {
+					margin-right: 0.3rem;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+@media (max-width: 500px) {
+	.App {
+		.main-btns {
+			display: none;
+		}
+
+		.title {
+			font-size: 1.5rem !important;
+			margin-top: 0.2rem;
+		}
+
+		[class*='List'] {
+			display: block;
+			overflow: auto;
+		}
+
+		.GlossaryList {
+			.edit-btn,
+			.delete-btn {
+				display: none;
+			}
+		}
+	}
+}

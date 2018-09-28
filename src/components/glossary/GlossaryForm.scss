@@ -1,0 +1,51 @@
+.GlossaryForm {
+
+	.divider {
+		margin-top: 2rem;
+		padding-bottom: 0.4rem;
+		border-top: 2px solid #eee;
+	}
+
+	.header {
+		line-height: 2rem;
+	}
+
+	.small-add {
+		float: right;
+		margin-top: 0.2rem;
+		padding: 0.2rem 0.5rem;
+	}
+
+	.form-modal {
+
+		& > div:first-child {
+			padding: 1.8rem 1.5rem 2.2rem;
+			background-color: #f8f8f9 !important;
+			text-align: left;
+
+			.form-actions {
+				text-align: center;
+			}
+		}
+
+		.form-control {
+			&.percentage {
+				width: 6rem;
+				display: inline;
+				margin-right: 0.5rem;
+			}
+		}
+	}
+
+	.editableInput {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		border-right: none;
+		width: 90%;
+
+		&:-webkit-autofill, &:focus {
+			background-color: #fff !important;
+		}
+	}
+}

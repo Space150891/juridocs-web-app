@@ -1,0 +1,14 @@
+.tabItem {
+  padding: 5px;
+  &:hover {
+    border-bottom: 2px solid #0b9ce4;
+    cursor: pointer;
+  }
+  &.active {
+    border-bottom: 2px solid #0b9ce4;
+  }
+}
+.add-button{
+  margin-left: 10px !important;
+  padding: .2rem .5rem !important;
+}

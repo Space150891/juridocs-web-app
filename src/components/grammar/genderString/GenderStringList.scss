@@ -1,0 +1,38 @@
+.GenderStringList {
+
+	table {
+		tr {
+			&:nth-child(2n) {
+				background-color: #fff;
+			}
+
+			td {
+				padding: 10px 8px;
+				border: none;
+
+				&:nth-child(1) {
+					padding-top: 1.55rem;
+					width: 5rem;
+				}
+				&:nth-child(2) {
+					width: 20rem;
+					padding-top: 1.55rem;
+					text-align: center;
+				}
+				&:nth-child(3) {
+					padding-top: 1.55rem;
+				}
+				&:nth-child(4) {
+					padding-top: 1.1rem;
+					padding-right: 0.4rem;
+					width: 3rem;
+				}
+				&:nth-child(5) {
+					padding-top: 1.1rem;
+					width: 3rem;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,119 @@
+tr.SortableItem {
+	vertical-align: top;
+	background-color: #fff;
+	border: 1px solid #eee;
+
+	td {
+		padding: 10px 8px;
+		border: none;
+
+		&:nth-child(1) {
+			width: 5rem;
+		}
+		&:nth-child(2) {
+			padding-top: 28px;
+			width: 100%;
+		}
+		&:nth-child(3) {
+			padding-top: 1.3rem;
+			padding-right: 0.4rem;
+			width: 3rem;
+		}
+		&:nth-child(4) {
+			padding-top: 1.3rem;
+			width: 3rem;
+		}
+	}
+	.item-logo {
+		width: 4rem;
+		height: 4rem;
+		border: 2px dashed #d6d6d6;
+		border-radius: 50%;
+		line-height: 3.7rem !important;
+		background-position: center;
+		background-size: cover;
+		cursor: grabbing !important;
+		cursor: -moz-grabbing !important;
+		cursor: -webkit-grabbing !important;
+		cursor: move;
+	}
+
+	.default-logo {
+		background-color: #eee;
+		color: #b7b7b7;
+		font-size: 2.2rem;
+		text-align: center;
+		line-height: 3.9rem;
+	}
+
+	.edit-btn {
+		padding: 6px 11px;
+		font-size: 1.2rem;
+		border-radius: 50%;
+	}
+
+	.delete-btn {
+		padding: 6px 13px;
+		font-size: 1.2rem;
+		border-radius: 50%;
+
+		&:hover {
+			color: #fff;
+			background-color: #e23f3f;
+		}
+		&:focus,
+		&:active {
+			color: #fff;
+			background-color: darken(#e23f3f, 5%);
+		}
+	}
+
+}
+
+.StepList {
+
+	table {
+		border: 1px solid #eee;
+
+		tr {
+			background-color: #fff;
+			border-bottom: 1px solid #eee;
+
+			&:hover {
+				td {
+					.item-logo {
+						border: 2px dashed #d6d6d6;
+						line-height: 3.7rem;
+						cursor: grab !important;
+						cursor: -moz-grab !important !important;
+						cursor: -webkit-grab !important;
+						cursor: move;
+					}
+				}
+			}
+
+			td {
+				padding: 10px 8px;
+				border: none;
+
+				&:nth-child(1) {
+					width: 5rem;
+				}
+				&:nth-child(3) {
+					padding-top: 1.3rem;
+					padding-right: 0.4rem;
+					width: 3rem;
+				}
+				&:nth-child(4) {
+					padding-top: 1.3rem;
+					width: 3rem;
+				}
+			}
+		}
+
+		.details {
+			padding-top: 1.2rem;
+		}
+	}
+
+}

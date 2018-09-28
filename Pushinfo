@@ -1,0 +1,30 @@
+Deploy Web Client to juridocs.com
+
+
+1) Make sure the master branch of the Web Client repo is up to date with the develop branch
+
+2) Login to juridocs.com server using SSH [ssh root@109.70.1.6)
+
+3) Go the Web Client root: CMD_FILE_MANAGER/domains/juridocs.com/public_html/frontend
+
+4) Update the git - git pull
+
+5) Install latest npm dependencies - npm install
+
+6) Compile the app - NODE_ENV=production npm run compile
+
+
+Setup Web Client to your development environment
+
+1) Clone the repo
+
+2) Make sure you have node v6.* installed
+
+3) npm install
+
+4) Add this config.js file under src directory, so src/config.js (this will connect your local client to the juridocs.com API):
+export default {
+    API_ENDPOINT: 'https://api.juridocs.com/api',
+}
+
+5) Start the server using - npm start (You can access it under http://localhost:3001)
